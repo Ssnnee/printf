@@ -18,7 +18,9 @@ int _printf(const char *format, ...)
 	conver_t f_array[] = {
 		{"c", print_c},
 		{"s", print_s},
-		{"%", print_percent}
+		{"%", print_percent},
+		{"d", print_i},
+		{"i", print_i}
 	};
 
 	if (format == NULL)
