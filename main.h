@@ -17,7 +17,7 @@ struct convert
 };
 typedef struct convert conver_t;
 
-
+int _putchar(char c);
 int print_c(va_list arg);
 int print_s(va_list arg);
 int print_percent(__attribute__((unused))va_list arg);
